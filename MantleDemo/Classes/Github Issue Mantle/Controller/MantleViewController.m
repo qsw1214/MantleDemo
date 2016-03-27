@@ -84,7 +84,7 @@
     }
     
     GHIssueMantle *issue = [self.dataSource objectAtIndex:indexPath.row];
-    cell.textLabel.text = issue.title;
+    cell.textLabel.text = issue.URL.absoluteString;
     
     return cell;
 }

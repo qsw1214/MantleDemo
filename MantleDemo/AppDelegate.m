@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "TGViewController.h"
+#import "Xtrace.h"
+#import "GHIssueMantle.h"
 
 @interface AppDelegate ()
 
@@ -23,6 +25,14 @@
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
+    
+    [Xtrace describeValues:NO];
+    [Xtrace showCaller:YES];
+    [Xtrace showActual:YES];
+    [Xtrace showArguments:YES];
+    [Xtrace showReturns:NO];
+    [GHIssueMantle xtrace];
+    [MTLJSONAdapter xtrace];
     
     return YES;
 }

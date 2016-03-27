@@ -10,8 +10,8 @@
 		A845E6E249B9029A8B02DDD8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D37FD73B99EBFB0080E3239 /* libPods.a */; };
 		BE0494FA1BD15CCB00508389 /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0494F91BD15CCB00508389 /* TGViewController.m */; };
 		BE0494FF1BD1644500508389 /* GHIssueMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0494FC1BD1644500508389 /* GHIssueMantle.m */; };
-		BE04953A1BD168BD00508389 /* MantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0495391BD168BD00508389 /* MantleViewController.m */; settings = {ASSET_TAGS = (); }; };
-		BE833B381BD55198004E2300 /* GHUserMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE833B371BD55198004E2300 /* GHUserMantle.m */; settings = {ASSET_TAGS = (); }; };
+		BE04953A1BD168BD00508389 /* MantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0495391BD168BD00508389 /* MantleViewController.m */; };
+		BE833B381BD55198004E2300 /* GHUserMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE833B371BD55198004E2300 /* GHUserMantle.m */; };
 		BEC2842C1BCACB6900F54031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2842B1BCACB6900F54031 /* main.m */; };
 		BEC2842F1BCACB6900F54031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2842E1BCACB6900F54031 /* AppDelegate.m */; };
 		BEC284371BCACB6900F54031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC284361BCACB6900F54031 /* Assets.xcassets */; };
@@ -19,6 +19,7 @@
 		BECC32801BCFFFA5008C915D /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BECC327F1BCFFFA5008C915D /* GHUser.m */; };
 		BEDCBF1B1BCAD9EF00AEC88A /* GHIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCBF1A1BCAD9EF00AEC88A /* GHIssue.m */; };
 		BEDCBF1E1BCAD9F900AEC88A /* NoMantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCBF1D1BCAD9F900AEC88A /* NoMantleViewController.m */; };
+		BFDAE4BB1CA76F6A00C9A442 /* Xtrace.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFDAE4BA1CA76F6A00C9A442 /* Xtrace.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		BEDCBF1A1BCAD9EF00AEC88A /* GHIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHIssue.m; path = "Classes/Github Issue/Model/GHIssue.m"; sourceTree = "<group>"; };
 		BEDCBF1C1BCAD9F900AEC88A /* NoMantleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoMantleViewController.h; path = "Classes/Github Issue/Controller/NoMantleViewController.h"; sourceTree = "<group>"; };
 		BEDCBF1D1BCAD9F900AEC88A /* NoMantleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoMantleViewController.m; path = "Classes/Github Issue/Controller/NoMantleViewController.m"; sourceTree = "<group>"; };
+		BFDAE4B91CA76F6A00C9A442 /* Xtrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Xtrace.h; path = Classes/Xtrace.h; sourceTree = "<group>"; };
+		BFDAE4BA1CA76F6A00C9A442 /* Xtrace.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Xtrace.mm; path = Classes/Xtrace.mm; sourceTree = "<group>"; };
 		CA1134E1490CFFC9F7863E42 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +152,8 @@
 		BEDCBF111BCAD83A00AEC88A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BFDAE4B91CA76F6A00C9A442 /* Xtrace.h */,
+				BFDAE4BA1CA76F6A00C9A442 /* Xtrace.mm */,
 				BE0494F51BD15BAB00508389 /* Github Issue(with mantle) */,
 				BEDCBF131BCAD86F00AEC88A /* Github Issue(no mantle) */,
 				BE0494F81BD15CCB00508389 /* TGViewController.h */,
@@ -293,6 +298,7 @@
 			files = (
 				BEDCBF1B1BCAD9EF00AEC88A /* GHIssue.m in Sources */,
 				BE04953A1BD168BD00508389 /* MantleViewController.m in Sources */,
+				BFDAE4BB1CA76F6A00C9A442 /* Xtrace.mm in Sources */,
 				BEC2842F1BCACB6900F54031 /* AppDelegate.m in Sources */,
 				BE0494FF1BD1644500508389 /* GHIssueMantle.m in Sources */,
 				BEC2842C1BCACB6900F54031 /* main.m in Sources */,
